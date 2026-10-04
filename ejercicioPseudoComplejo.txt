@@ -1,0 +1,24 @@
+Inicio
+ 
+    Definir precio, unidades, total Como Real
+ 
+    total <- 0
+ 
+    Escribir "Introduce precio"
+    Leer precio
+ 
+    Mientras precio > 0 Hacer
+ 
+        Escribir "Introduce unidades"
+        Leer unidades
+ 
+        total <- total + precio
+ 
+        Escribir "Introduce precio"
+        Leer precio
+ 
+    FinMientras
+ 
+    Escribir "Total: ", total
+ 
+Fin
